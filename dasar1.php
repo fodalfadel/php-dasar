@@ -10,3 +10,5 @@
 echo "hello world";
 
 echo "edited!";
+
+echo "saya yang duluan ngedit";
