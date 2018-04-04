@@ -2,7 +2,7 @@
 
 $nama = ['ojan', 'fajrul', 'shena'];
 
-foreach ($nama as $key => $value) {
+for ($i=0; $i < count($nama); $i++) {
+  echo $nama[$i];
   echo "<br>";
-  echo "No $key namanya $value";
 }
