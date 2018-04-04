@@ -2,4 +2,7 @@
 
 $nama = ['ojan', 'fajrul', 'shena'];
 
-print_r($nama);
+foreach ($nama as $key => $value) {
+  echo "<br>";
+  echo "No $key namanya $value";
+}
